@@ -6,3 +6,16 @@ function ColoradoStateParks() {
 
   return <h1>Colorado State Parks!</h1>;
 }
+
+import React from "react";
+import MesaVerde from "./parks/MesaVerde";
+
+function ColoradoStateParks() {
+  return (
+    <div>
+      <MesaVerde />
+    </div>
+  );
+}
+
+export default ColoradoStateParks;
